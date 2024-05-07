@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User Login In Web Application",
+        "description": "",
+        "id": "purchase-a-products-in-swaplabs-application;user-login-in-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 743733701,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch The SwapLabs Application",
+            "match": {
+              "location": "StepDefinition.user_Launch_The_SwapLabs_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118916600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enter The Username In Username Field",
+            "match": {
+              "location": "StepDefinition.user_Enter_The_Username_In_Username_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106359899,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter The Password In Password Field",
+            "match": {
+              "location": "StepDefinition.user_Enter_The_Password_In_Password_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94088200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Click The Login Button And Its Navigate to Product Pages",
+            "match": {
+              "location": "StepDefinition.user_Click_The_Login_Button_And_Its_Navigate_to_Product_Pages()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "User Product Page The SwapLabs In Web Application",
+        "description": "",
+        "id": "purchase-a-products-in-swaplabs-application;user-product-page-the-swaplabs-in-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71679600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Select Product To Add To Cart",
+            "match": {
+              "location": "StepDefinition.user_Select_Product_To_Add_To_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50705799,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Click The Your Add Cart And Its Navigate To Add Cart page",
+            "match": {
+              "location": "StepDefinition.user_Click_The_Your_Add_Cart_And_Its_Navigate_To_Add_Cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "User Select The SwapLabs In Web Application",
+        "description": "",
+        "id": "purchase-a-products-in-swaplabs-application;user-select-the-swaplabs-in-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26901,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user Select The Add Cart For The All Products Checking To Checkout page",
+            "match": {
+              "location": "StepDefinition.user_Select_The_Add_Cart_For_The_All_Products_Checking_To_Checkout_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "User CheckOut Information For The SwapLabs In Web Application",
+        "description": "",
+        "id": "purchase-a-products-in-swaplabs-application;user-checkout-information-for-the-swaplabs-in-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88872800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Enter The FirstName In FirstName Field",
+            "match": {
+              "location": "StepDefinition.user_Enter_The_FirstName_In_FirstName_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73859700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Enter The LastName In LastName Field",
+            "match": {
+              "location": "StepDefinition.user_Enter_The_LastName_In_LastName_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67445600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user Enter The PostalCode In PostalCode Field",
+            "match": {
+              "location": "StepDefinition.user_Enter_The_PostalCode_In_PostalCode_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61837200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user Click The Continue Button And Its Navigate To Checkout Overview Confiromation Page",
+            "match": {
+              "location": "StepDefinition.user_Click_The_Continue_Button_And_Its_Navigate_To_Checkout_Overview_Confiromation_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "User Checkout Overview Confirmation In SwapLabs web Application",
+        "description": "",
+        "id": "purchase-a-products-in-swaplabs-application;user-checkout-overview-confirmation-in-swaplabs-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62515800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user Click To Finsih Button And Its To Navigate To Checkout Complete Page",
+            "match": {
+              "location": "StepDefinition.user_Click_To_Finsih_Button_And_Its_To_Navigate_To_Checkout_Complete_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User Click Back Home In SwapLabs Web Application",
+        "description": "",
+        "id": "purchase-a-products-in-swaplabs-application;user-click-back-home-in-swaplabs-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83732600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user Click To Back Home Button And Its Navigate To SwapLaps Login Page",
+            "match": {
+              "location": "StepDefinition.user_Click_To_Back_Home_Button_And_Its_Navigate_To_SwapLaps_Login_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Purchase A Products In SwapLabs Application",
+    "description": "",
+    "id": "purchase-a-products-in-swaplabs-application",
+    "keyword": "Feature",
+    "uri": "Swap.feature"
+  }
+]
